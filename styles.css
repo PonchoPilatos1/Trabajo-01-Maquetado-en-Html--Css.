@@ -1,0 +1,192 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Utilizar la fuente de Google importada */
+    color: #333;
+    font-weight: bold;
+    background-image: url('images/pexels-jakub-novacek-924824.jpg');
+}
+
+/* Secciones */
+.contact-section,
+.education-section,
+.skills-section,
+.experience-section,
+.projects-section,
+.interests-section,
+.software-section,
+.languages-section,
+.references-section {
+    margin-top: 20px;
+}
+
+/* Crear una variable CSS personalizada */
+:root {
+    --main-color: #0077cc;
+}
+
+.skills li {
+    border-color: var(--main-color);
+    color: var(--main-color);
+}
+
+
+/* Header del Nombre */
+header h1 {
+    position: absolute;
+    top: 180px; /* Ajusta la posición superior según tus necesidades */
+    left: 700px; /* Ajusta la posición izquierda según tus necesidades */
+    font-size: 50px;
+}
+
+
+h1 {
+    color: #000000; /* Cambiar el color del encabezado */
+}
+
+.contact-info p {
+    font-size: 16px; /* Cambiar el tamaño de la fuente */
+}
+
+.contact-info a {
+    color: #0077cc; /* Cambiar el color del enlace */
+}
+
+.skills li {
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #ddd; /* Agregar bordes a las habilidades */
+    margin-bottom: 10px;
+    background-color: #fff; /* Dar color de fondo a las habilidades */
+}
+
+.skills li:hover {
+    background-color: #f0f0f0; /* Cambiar el color de fondo al pasar el ratón sobre las habilidades */
+}
+
+/* Utilizar herencia de estilos */
+.section-title {
+    color: #0077cc;
+}
+
+.blue-rectangle {
+    background-color: #329de9bb; /* Color azul */
+    height: 1250px;
+    width: 370px; /* Ancho del rectángulo, ajusta según sea necesario */
+    position: absolute;
+    top: 0; /* Comienza desde la parte superior del contenedor padre */
+    left: 130px; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: -1; 
+}
+
+
+.second-rectangle{
+    background-color: #0762a3d0; /* Color azul */
+    width: 3000px; /* Ancho del rectángulo, ajusta según sea necesario */
+    height: 250px; /* Altura del rectángulo, ajusta según sea necesario */
+    position: absolute;
+    top: 110px; /* Ajusta la posición superior según tus necesidades */
+    left: 100px; /* Ajusta la posición izquierda según tus necesidades */
+    z-index: -1;
+}
+
+
+header img {
+    width: 200px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px; /* Ajusta la posición superior según tus necesidades */
+    left: 200px; /* Ajusta la posición izquierda según tus necesidades */
+    background-color: #f0f0f0;
+    border: 8px solid #fff;
+}
+
+.contact-section {
+    font-weight: bold;
+    position: absolute;
+    top: 350px; /* Ajusta la posición superior según tus necesidades */
+    left: 170px; /* Ajusta la posición izquierda según tus necesidades */
+}
+
+.education-section {
+    font-weight: bold;
+    position: absolute;
+    top: 580px; /* Ajusta la posición superior según tus necesidades */
+    left: 170px; /* Ajusta la posición izquierda según tus necesidades */
+}
+
+.skills-section {
+    font-weight: bold;
+    position: absolute;
+    top: 720px; /* Ajusta la posición superior según tus necesidades */
+    left: 170px; /* Ajusta la posición izquierda según tus necesidades */
+}
+
+.languages-section {
+    font-weight: bold;
+    position: absolute;
+    top: 870px; /* Ajusta la posición superior según tus necesidades */
+    left: 170px; /* Ajusta la posición izquierda según tus necesidades */
+}
+
+.references-section {
+    font-weight: bold;
+    position: absolute;
+    top: 980px; /* Ajusta la posición superior según tus necesidades */
+    left: 170px; /* Ajusta la posición izquierda según tus necesidades */
+}
+
+
+
+
+.interests-section {
+    position: absolute;
+    top: 370px; /* Ajusta la posición superior según tus necesidades */
+    left: 600px; /* Ajusta la posición izquierda según tus necesidades */
+    background-color: #dbe8e9cb;
+    padding: 20px; 
+    width: 400px; /* Ajusta el ancho según tus preferencias */
+    height: 155px; /* Ajusta la altura según tus preferencias */
+    text-align: center;
+    border: 10px solid #6e6b6b;
+}
+
+.experience-section {
+    position: absolute;
+    top: 370px; /* Ajusta la posición superior según tus necesidades */
+    left: 1100px; /* Ajusta la posición izquierda según tus necesidades */
+    background-color: #60b0c0cc;
+    padding: 20px;
+    width: 400px; /* Ajusta el ancho según tus preferencias */
+    height: 150px; /* Ajusta la altura según tus preferencias */
+    text-align: center;
+    border: 10px solid #6e6b6b;
+}
+
+.software-section {
+    position: absolute;
+    top: 670px; /* Ajusta la posición superior según tus necesidades */
+    left: 600px; /* Ajusta la posición izquierda según tus necesidades */
+    background-color: #9b6060d3;
+    padding: 20px;
+    width: 400px; /* Ajusta el ancho según tus preferencias */
+    height: 180px; /* Ajusta la altura según tus preferencias */
+    text-align: center;
+    border: 10px solid #6e6b6b;
+}
+
+.projects-section {
+    position: absolute;
+    top: 670px; /* Ajusta la posición superior según */
+    left: 1100px; /* Ajusta la posición izquierda */
+    background-color: #dba3a3c9;
+    padding: 20px;
+    width: 400px; /* Ajusta el ancho */
+    height: 180px; /* Ajusta la altura */
+    text-align: center;
+    border: 10px solid #6e6b6b;
+}
+
+
+
+
+
